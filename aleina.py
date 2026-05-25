@@ -13,7 +13,7 @@ console.print("© ██║╚██╔╝██║  ╚██╔╝   ██╔
 console.print("© ██║ ╚═╝ ██║   ██║    ███████╗███████╗ ©")
 console.print("© ╚═╝     ╚═╝   ╚═╝    ╚══════╝╚══════╝ ©")
 console.print("©       La Tahzan Innallah Ma’ana            ©")
-console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©®®®©©© [cyan]" )
+console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© [cyan]" )
 
 async def attack(url, jumlah, threads):
     sukses = 0
