@@ -5,14 +5,13 @@ from rich.console import Console
 console = Console()
 
 # Banner
-console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©")
-console.print("© ███╗   ███╗██╗   ██╗ ███████╗██╗       ©")
-console.print("© ████╗ ████║╚██╗ ██╔╝ ██╔════╝██║      ©")
-console.print("© ██╔████╔██║ ╚████╔╝  █████╗  ██║       ©")
-console.print("© ██║╚██╔╝██║  ╚██╔╝   ██╔══╝  ██║       ©")
-console.print("© ██║ ╚═╝ ██║   ██║    ███████╗███████╗ ©")
-console.print("© ╚═╝     ╚═╝   ╚═╝    ╚══════╝╚══════╝ ©")
-console.print("©       La Tahzan Innallah Ma’ana            ©")
+console.print(" ███╗   ███╗██╗   ██╗ ███████╗██╗   ")
+console.print(" ████╗ ████║╚██╗ ██╔╝ ██╔════╝██║    ")
+console.print(" ██╔████╔██║ ╚████╔╝  █████╗  ██║    ")
+console.print(" ██║╚██╔╝██║  ╚██╔╝   ██╔══╝  ██║       ")
+console.print(" ██║ ╚═╝ ██║   ██║    ███████╗███████╗ ")
+console.print(" ╚═╝     ╚═╝   ╚═╝    ╚══════╝╚══════╝ ")
+console.print("       La Tahzan Innallah Ma’ana            ")
 console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© [cyan]" )
 
 async def attack(url, jumlah, threads):
