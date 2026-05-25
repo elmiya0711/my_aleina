@@ -17,7 +17,7 @@ console.print("       La Tahzan Innallah Ma’ana")
 
 
 async def attack(url, jumlah):
-‎    sukses = 0
+  sukses = 0
 ‎    gagal = 0
 ‎    async with aiohttp.ClientSession() as session:
 ‎        for i in range(jumlah):
