@@ -5,15 +5,15 @@ from rich.console import Console
 console = Console()
 
 # Banner
-console.print("[cyan]")
-console.print(" ███╗   ███╗██╗   ██╗ ███████╗██╗ ")
-console.print(" ████╗ ████║╚██╗ ██╔╝ ██╔════╝██║ ")
-console.print(" ██╔████╔██║ ╚████╔╝  █████╗  ██║ ")
-console.print(" ██║╚██╔╝██║  ╚██╔╝   ██╔══╝  ██║ ")
-console.print(" ██║ ╚═╝ ██║   ██║    ███████╗███████╗")
-console.print(" ╚═╝     ╚═╝   ╚═╝    ╚══════╝╚══════╝ ")
-console.print("        La Tahzan Innallah Ma’ana")
-console.print("  ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© [cyan]" )
+console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©")
+console.print("© ███╗   ███╗██╗   ██╗ ███████╗██╗   ©")
+console.print("© ████╗ ████║╚██╗ ██╔╝ ██╔════╝██║   ©")
+console.print("© ██╔████╔██║ ╚████╔╝  █████╗  ██║ ©")
+console.print("© ██║╚██╔╝██║  ╚██╔╝   ██╔══╝  ██║ ©")
+console.print("© ██║ ╚═╝ ██║   ██║    ███████╗███████╗©")
+console.print("© ╚═╝     ╚═╝   ╚═╝    ╚══════╝╚══════╝ ©")
+console.print("©       La Tahzan Innallah Ma’ana          ©")
+console.print("©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© [cyan]" )
 
 async def attack(url, jumlah, threads):
     sukses = 0
