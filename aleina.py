@@ -1,6 +1,7 @@
 import asyncio
 import aiohttp
 from rich.console import Console
+from colorama import Fore, init
 
 console = Console()
 
